@@ -1,0 +1,265 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+
+header{
+
+        background-color: #f3f3f3;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 70px;
+       gap: 20px;
+       position: fixed;
+    }
+
+
+h1{
+    color: rgb(240, 108, 189);
+    margin-left: 100px;
+}
+
+.menu{
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.programa-titulo{
+    display: block;
+    text-align: center;
+}
+
+.seccion-1{
+    background-image: url(Imagenes/hero.jpg);
+    background-size: cover;
+    height: 550px;
+
+}
+
+.programar{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+.programar h2{
+    color: white;
+    font-size: 60px;
+    margin-top: 200px;
+}
+
+
+.programar a{
+    text-decoration: none;
+    background-color:rgb(239, 73, 176);
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 70px;
+}
+
+.programar a:hover{
+    background-color: rgb(210, 65, 154) ;
+}
+
+.seccion-2{
+    height: 550px;
+
+}
+
+.somos-ada {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left:50px;   
+    
+}
+
+.somos img{
+    width: 420px;
+    height: 450px;
+    object-fit: cover;
+    margin-left: 190px;
+    margin-top: 100px;
+}
+
+.ada-itw-titulo{
+    color:  rgb(240, 108, 189);
+}
+
+.somos{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    
+}
+
+.somos p{
+    margin-left: 100px;
+    margin-right: 190px;
+}
+
+.somos h2{
+    font-size: 40px;
+    align-self: center;
+}
+
+.seccion-3{
+    height: 550px;
+    background-color:#1E1E1E;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+
+
+}
+
+.seccion-3 h2{
+    padding-top: 30px;
+    display: block;
+    font-size: 40px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.programador{
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    background-color: rgb(57, 57, 57);
+    border-radius: 1rem;
+    margin-top: 70px;
+    position: relative;
+    
+}
+
+.programador p{
+    font-size: 15px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.programador h3{
+    padding-top: 30px;
+    
+}
+
+.programador img{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    left: 1px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    top: 2px;
+    opacity: 0.4;
+    
+}
+
+
+.programador a{
+    text-decoration: none;
+    background-color:rgb(239, 73, 176);
+    color: white;
+    padding: 15px;
+    font-weight: bolder;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    display: block;
+}
+
+.programador a:hover{
+    background-color:  rgb(210, 65, 154) ;
+}
+
+.seccion-4{
+    font-size: 20px;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-weight: bolder;
+    gap: 180px;
+}
+
+
+.seccion-4 ul{
+    list-style: none
+}
+
+.seccion-5{
+    height: 550px;
+    background-color:rgb(240, 108, 189) ;
+    text-align: center;
+    color: white;
+
+}
+
+.seccion-5 h2{
+     font-size: 65px;;
+}
+
+.seccion-5 a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 7px;
+    font-weight: bolder;
+    background-color:rgb(239, 73, 176) ;
+    color: white;
+   box-shadow:0 0 10px black;
+
+}
+
+.seccion-5 a:hover{
+    background:  rgb(210, 65, 154);
+}
+
+.titulo-5{
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+   
+}
+
+.titulo-5 h2{
+    margin-top: 200px;
+}
+
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+
+}
